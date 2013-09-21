@@ -1,0 +1,88 @@
+.footer {position:absolute; margin:0 auto; width:1000px;height:110px; background-color:#09F;z-index:9999;}
+.footer1 {position:relative; margin:0 auto; width:1000px;height:110px; background-color:#09F;}
+/*		KDO SMO*/
+	/*Osebna izkaznica ZACETEK*/
+#vizitka p{ font-weight:bold;color:#F00; font-family:Arial, Helvetica, sans-serif;font-size:15px; letter-spacing:3px; position:relative;top:15px; text-align:center;}
+#vizitka a {text-decoration:none;}
+#vizitka a:hover {color:#000;}
+#vizitka {border-bottom:1px solid #999;width:700px;height:604px;top:20px;right:-50px; position:relative; line-height:120%; }
+#vizitka h1 {position:relative; text-align-last:left; letter-spacing:1px;font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+.naslov-vizitka { font-weight:bold; letter-spacing:1px; font-family:Georgia;font-size:12px;}
+#podatki-kontakt1{Border-left:1px ridge #000; width:200px; height:550px;position:absolute;top:12%;right:0;}
+#podatki-kontakt1 h1 { font-weight:bold;color:#F00; font-family:Arial, Helvetica, sans-serif;font-size:15px; letter-spacing:3px; position:relative;top:1px; text-align:center;}
+#podatki-kontakt1 h2{font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt1 h3 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt1 h4 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt1 h6 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt1 a {font-family:Arial, Helvetica, sans-serif;right:-7%; position:relative;font-size:12px;top:-1px;}
+#podatki-kontakt1 a:hover {color:#000;text-decoration:none;}
+#podatki-kontakt1 hr {position:relative;top:10px;right:1%;width:188px;}
+
+.mainhead2 {position:absolute;top:52%;right:36px;}
+.mainhead-2 h1 {position:absolute;top:350px;right:12px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.mainhead-2 a:hover {color:#000;text-decoration:none;}
+.naslov-vizitka2 {font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;}
+	/*Osebna izkaznica KONEC*/
+	
+	/*VODSTVO ZACETEK*/
+	/*VODSTVO KONEC*/
+	/*POLITIKA KAKOVOSTI ZACETEK*/
+#logo-pol-kak {position:relative; margin:2px 32%;}
+.logo-bolnisnica {width:180px; height:80px;}
+#vizitka li {line-height:180%;position:relative;right:-35px;}	
+#vizitka h3 {float:right; text-align:center; position:relative;top:-20px;}
+	/*POLITIKA KAKOVOSTI KONEC*/
+	/*Predstavitev bolnišnice Zacetek*/
+#container1 {margin:0 auto; width:1000px; height:1100px; position:relative; z-index:2; background-image:url(../images/backgroundtexture.png);
+-moz-box-shadow:1px 1px 18px 1px rgba(119, 119, 119, 1);-webkit-box-shadow:1px 1px 18px 1px rgba(119, 119, 119, 1);box-shadow:1px 1px 18px 1px rgba(119, 119, 119, 1);
+behavior:url(pie/PIE.htc);}
+#vizitka1 {border-bottom:1px solid #CCC;width:720px;height:892px;top:20px;right:-50px; position:relative; line-height:120%; }
+#vizitka1 p{ font-weight:bold;color:#F00; font-family:Arial, Helvetica, sans-serif;font-size:15px; letter-spacing:3px; position:relative;top:15px; text-align:center;}
+.mainhead-3 h1 {position:absolute;top:390px;right:12px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.mainhead-3 a:hover {color:#000;text-decoration:none;}
+
+
+
+#logo-predstavitev{position:relative;top:15px;right:-50px;}	
+.naslov-predstavitev { font-weight:bold;font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#vizitka1 li {line-height:180%;position:relative;right:-35px; font-size:12px;}
+#vizitka1 li a { text-decoration:none;color:#000;}
+#vizitka1 li a:hover {text-decoration:underline;}
+.predstavitev {font-size:12px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+.predstavitev1{font-size:11px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+
+ul.decimal { list-style-type:decimal;}
+ul.none { list-style-type:none;}
+	
+	
+	
+	
+	/*Predstavitev bolnišnice KONEC*/
+/*		KDO SMO KONEC*/	
+
+
+	/*KJE SMO ZACETEK*/
+#kje-smo {border:1px solid #06F; width:550px; height:500px; position:relative;margin:30px 10px; background-image:url(../Kje-smo/zemljevid.jpg);z-index:99999;}
+#kje-smo:hover { background-image:url(../Kje-smo/zemljevid1.jpg); cursor:pointer;}
+#kako-donas {border-top:1px solid #CCC; width:799px;height:180px;border-right:1px solid #999;border-botom:1px solid #CCC;}
+#kako-donas h6{position:relative;font-family:Arial, Helvetica, sans-serif; font-size:13px; position:relative;right:-5%;top:5px;width:700px;}
+
+.efekt {z-index:-1;position:absolute;}
+.logotip {z-index:-1;position:relative;width:100px;height:60px;top:420px;left:250px;}
+.podrobnejsi-p {float:right;}
+	/*KJE SMO KONEC*/
+
+/*************************************************************/
+
+
+#knjiga-gostov {position:relative; height:700px; width:650px; margin:20px 55px;right:-5%;
+    overflow-x: scroll;
+    -ms-overflow-x: auto; /* IE8 */
+    overflow-x: auto }
+#knjigag h1{color:#CCC;font-size:1px; position:absolute;}	
+#knjigag h6 {color:#06F; font-family:Arial, Helvetica, sans-serif; font-size:18px;border-top:1px solid #CCC;}
+#knjigag h2 {color:#06F; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; letter-spacing:1px;}
+.logo { position:absolute;z-index:111;}
+
+.logo2 {position:absolute;float:right;top:40px;}

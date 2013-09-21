@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Bolnišnica Sežana izvaja rehabilitacijo kroničnih pljučnih bolnikov v posebnih klimatskih pogojih.">
+        <meta name="keywords" content="spletna stran, Sežana, bolnišnica, bolnica, bolnišnica Sežana, ambulanta, pljučne bolezni, alergija, pulmologija, alergološka ambulanta, zdravje, bolniki, 			Jama za pljučne bolnike" />
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Blaz Sajovic" />
+		<meta name="copyright" content="Copyright © 2013 Spletko.eu">
+		<meta http-equiv="Content-Language" content="sl-SI" />
+		<meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow">
+		<link rel="shortcut icon" href="images/icon/logo.gif"/>
+        <title>Fotogalerija</title>    
+        <!--reference-->
+        <link rel="stylesheet" href="Vprasajte-nas/style.css">     
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="images/tipuesearch/tipuesearch.css">     
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>       
+<!-- prva galerija -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="Fotogalerija/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="Fotogalerija/source/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="Fotogalerija/source/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="Fotogalerija/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="Fotogalerija/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="Fotogalerija/source/helpers/jquery.fancybox-media.js"></script>
+<link rel="stylesheet" href="Fotogalerija/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+<!-- prva video sekcija -->
+<script type="text/javascript" src="Fotogalerija/videosekcija.js"></script>
+<script type="text/javascript">
+	
+		$(function() {
+
+			$("ul.demo1").ytplaylist({addThumbs:false,allowFullScreen:true, autoPlay: false, holderId: 'ytvideo'});
+		});
+	
+</script>
+<script type="text/javascript" src="Fotogalerija/source/helpers/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<!-- scroling med stranmi galerjije -->
+<script type="text/javascript" src="Fotogalerija/jquery.scrollTo.js"></script>
+<script>
+
+$(document).ready(function() {
+
+	$('a.panel').click(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		current = $(this);
+				
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+	
+	$(window).resize(function () {
+		resizePanel();
+	});
+	
+});
+
+function resizePanel() {
+
+	width = $(window).width();
+	height = $(window).height();
+
+	mask_height = height * $('.item').length;
+		
+	$('#debug').html(width  + ' ' + height + ' ' + mask_height);
+	
+	$('#wrapper, .item').css({width: width, height: height});
+	$('#mask').css({width: width, height: mask_height});
+	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);		
+}
+</script>   
+     <script src="cookie/cookie.js"></script>
+     <script type="text/javascript" src="cookie/cookie-law.js"></script>   
+  </head>
+    <body>
+    <!--[if lt IE 9]>
+    	 <div class='alc' style=' clear: both; text-align:center; position: relative;background-color:#09F; z-index:9999;'>
+    	   <a href="http://windows.microsoft.com/sl-si/internet-explorer/download-ie">
+    	     <img src="opozorilo-ie-posodobitev.jpg" border="0" height="40"width="1000" alt="Uporabljate starejso verzijo brskalnika. Za hitrejso, varnejso brskalno izkusnjo, posodobite ga ze danes	" />
+    	  </a>
+    	</div>
+	<![endif]-->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->  
+<div id="header"> 
+<div id="glava"><a href="index.html"><img src="images/icon/logo-bolnisnica.fw.png" alt="Bolnisnica Sezana" title="Bolnisnica Sezana" class="logo-glava"></a>
+<ul id="nav-menu2">
+	<li><a href="kje-smo.html">Kje smo</a></li>
+    <li><a href="Izkaznica.html">Kontakt</a></li>
+	<li><a href="Pisite.html">Vprašajte nas</a></li>
+</ul> 
+</div>          
+<div id="menu">    
+        <ul id="nav" class="dropdown dropdown-horizontal">
+	<li><a href="index.html">Domov</a></li>
+    <li class="aktivno"><a class="dir">Kdo smo</a>
+		<ul>
+			<li><a href="Izkaznica.html">Osebna izkaznica</a></li>
+			<li><a href="Vodstvo.html">Vodstvo</a></li>
+			<li><a href="Svet-zavoda.html">Svet Zavoda</a></li>
+			<li><a href="Predstavitev.html">Predstavitev Bolnišnice</a></li>
+			<li><a href="./">Poslanstvo in vizija</a></li>
+			<li><a href="Politika-kakovosti.html">Politika kakovosti</a></li>
+			<li><a href="./">Zgodovina</a></li>
+			<li><a href="./">Organigram</a></li>
+            <li><a class="dir-active">Fotogalerija</a></li>
+		</ul>
+	</li>
+	<li><a class="dir">Oddelki</a>
+		<ul>
+			<li class="empty">ODDELKI</li>
+			<li><a href="">&raquo; Bolnišnični oddelek (200)</a></li>
+            <li><a href="./">&raquo; Bolnišnični oddelek (300)</a></li>
+			<li><a href="./">&raquo; Bolnišnični oddelek (400)</a></li>
+           </ul>
+          </li> 
+   <li><a class="dir">Ambulante</a>
+		<ul>    
+            <li class="empty">SPECIALISTIČNE AMBULANTE</li>
+			<li><a href="./">&raquo; Pulmološka</a></li>
+			<li><a href="./">&raquo; Kardiološka</a></li>
+            <li><a href="./">&raquo; Urološka</a></li>
+            <li><a href="./">&raquo; Dermatološka</a></li>
+            <li><a href="./">&raquo; Psihiatrična</a></li>
+            <li class="empty">INTERNISTIČNA</li>
+            <li><a href="./">&raquo; Tirologija</a></li>
+			<li><a href="./">&raquo; Nefrologija</a></li>
+			<li><a href="./">&raquo; Nevrologija</a></li>
+            <li><a href="./">&raquo; Gastroenterologija</a></li>
+			<li class="empty">HEMODIALIZA</li>
+            <li><a href="./">&raquo; Dializa &#8544;</a></li>
+            <li><a href="./">&raquo; Dializa &#8545;</a></li>
+		</ul>
+	</li>
+    <li><a class="dir">Dejavnosti</a>
+		<ul>
+			<li class="empty">SLIKOVNA DIAGNOSTIKA</li>
+			<li><a href="">&raquo; Rentegen</a></li>
+            <li><a href="./">&raquo; Ultrazvok</a></li>
+	    </ul>
+          </li>
+    <li><a class="dir">Informacije za bolnike in obiskovalce</a>
+		<ul>
+        	<li class="empty">Bolniki</li>
+			<li><a href="./">&raquo; Hišni red</a></li>
+			<li><a href="./">&raquo; Sprejem in odpust</a></li>
+			<li><a href="./">&raquo; Podaljšano bolnišnično zdravljenje</a></li>
+            <li><a href="./">&raquo; Ordinacijski časi ambulant</a></li>
+            <li><a href="./">&raquo; Naša čakalna doba</a></li>
+            <li><a href="Narocanje.html">&raquo; Ambulantno naročanje</a></li>
+            <li class="empty">Obiskovalci</li>
+            <li><a href="./">&raquo; Pravice in dolžnosti bolnikov in svojcev</a></li>
+            <li><a href="./">&raquo; Obiski in informacije svojcem</a></li>
+            <li><a href="./">&raquo; Verski obredi</a></li>
+            <li><a href="./">&raquo; Imate urejeno zavarovanje</a></li>
+            <li><a href="./">&raquo; Informacije o zdravljenju</a></li>
+            <li><a href="./">&raquo; Pritožbeni postopek</a></li>
+            <li><a href="./">&raquo; Zahtevek za obravnavo kršitve pacientove pravice</a></li>
+            <li><a href="./">&raquo; Shema bolnišnice</a></li>
+		</ul>
+	</li>      
+    <li><a class="dir">Katalog informacij javnega značaja</a>
+		<ul>
+			<li><a href="./">&#8544; Osnovni podatki o katalogu</a></li>
+         	<li class="empty">&#8545; Splošni podatki o zavodu in informacijah javnega značaja</li>
+			<li><a href="./">&raquo; (a)Organigram in podatki o organizaciji zavoda</a></li>
+			<li><a href="./">&raquo; (b)Oseba, pristojna za posredovanje informacij javnega značaja in informacij medijem</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+</div>
+
+
+
+
+<!-- / END -->
+<div id="container"> <!--zacetek telesa-->
+<div id="podmenu"><h1><img src="images/icon/home.png" class="home-icon" alt="Domov" title="Domov"><a class="kje-nahajas"></a><a href="index.html">Domov</a> &raquo;Fotogalerija &raquo;</h1>
+       
+
+<form action="Iskanje.html" class="search-okno"  >
+<div style="float: left;"><input type="text" title="Vpišite željeno besedo za iskanje" value="Išči" onfocus="this.value = this.value=='Išči'?'':this.value;" 
+onblur="this.value = this.value==''?'Išči':this.value;" name="q" id="tipue_search_input"></div>
+<div style="float: left; margin-left: 13px;"><input type="button" title="Išči" id="tipue_search_button" onclick="this.form.submit();"></div>
+</form></div>  
+
+
+
+
+<div id="video">
+<br>
+<hr><br>
+<h2>Naše slike skozi zgodovino</h2>
+
+
+
+</div>
+<div class="yt_holder">
+    	<div id="ytvideo"></div>
+        <ul class="demo1">
+            <li><a href="https://www.youtube.com/watch?v=di74wPvT1SA">Video posnetek &raquo;</a></li>
+        </ul>
+        <h1>Bolnišnica Sežana</h1><hr><br><h3>Lepota Krasa in <br>rehabilitacija pljučnih bolezni.</h3><br>
+<h2>Prispevek pripravil:<br> Kosovelov dom Sežana.<br> Tehnična obdelava:TV Kras</h2>
+    </div>
+
+
+<div id="wrapper">
+
+	<div id="mask">
+
+		<div id="item1" class="item">
+			<div class="content"><a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/1.jpg" title="Slika#1 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/1.jpg" alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/2.jpg" title="Slika#2 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/2.jpg"  alt="" />
+</a>
+
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/3.jpg" title="Slika#3 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/3.jpg"  alt="" />
+</a>
+
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/4.jpg" title="Slika#4 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/4.jpg"  alt="" />
+</a>
+
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/5.jpg" title="Slika#5 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/5.jpg"  alt="" />
+</a>
+
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/6.jpg" title="Slika#6 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/6.jpg"  alt="" />
+</a>
+
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/7.jpg" title="Slika#7 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/7.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/8.jpg" title="Slika#8 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/8.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/9.jpg" title="Slika#9 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/9.jpg"  alt="" />
+</a><br>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/10.jpg" title="Slika#10 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/10.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/11.jpg" title="Slika#11 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/11.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/12.jpg" title="Slika#12 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/12.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/13.jpg" title="Slika#13 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/13.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/14.jpg" title="Slika#14 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/14.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/15.jpg" title="Slika#15 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/15.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/18.jpg" title="Slika#16 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/16.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/17.jpg" title="Slika#17 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/17.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/16.jpg" title="Slika#18 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/18.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/19.jpg" title="Slika#19 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/19.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/20.jpg" title="Slika#20 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/20.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/21.jpg" title="Slika#21 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/21.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/22.jpg" title="Slika#22 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/22.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/23.jpg" title="Slika#23 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/23.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/24.jpg" title="Slika#24 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/24.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/25.jpg" title="Slika#25 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/25.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/26.jpg" title="Slika#26 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/26.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/27.jpg" title="Slika#27 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/27.jpg"  alt="" />
+</a>
+<a href="#item1" class="panel"></a> <a href="#item2" class="panel">Naprej&raquo;</a> <a href="#item3" class="panel"></a></div>
+		</div>
+		
+		
+        
+        
+        
+        
+        
+        <div id="item2" class="item">
+			<a name="item2"></a>
+			<div class="content"><div class="content">
+      <a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/28.jpg" title="Slika#28 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/28.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/29.jpg" title="Slika#29 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/29.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/30.jpg" title="Slika#30 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/30.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/31.jpg" title="Slika#31 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/31.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/32.jpg" title="Slika#32 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/32.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/33.jpg" title="Slika#33 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/33.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/34.jpg" title="Slika#34 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/34.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/35.jpg" title="Slika#35 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/35.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/36.jpg" title="Slika#36 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/36.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/37.jpg" title="Slika#37 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/37.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/38.jpg" title="Slika#38 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/38.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/39.jpg" title="Slika#39 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/39.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/40.JPG" title="Slika#40 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/40.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/41.jpg" title="Slika#41 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/41.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1"  href="Fotogalerija/Galerija/Velike/42.JPG" title="Slika#42 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/42.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/43.JPG" title="Slika#43 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/43.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/44.jpg" title="Slika#44 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/44.jpg"  alt="" />
+</a>
+<a class="fancybox" rel="gallery1" href="Fotogalerija/Galerija/Velike/45.jpg" title="Slika#45 Bolnišnica Sežana">
+	<img src="Fotogalerija/Galerija/Male/45.jpg"  alt="" />
+</a>
+<a href="#item1" class="panel">&laquo;Nazaj</a> <a href="#item2" class="panel"></a> <a href="#item3" class="panel"></a></div>
+		</div>
+		
+		
+        
+        
+        
+        
+        
+        <div id="item3" class="item">
+			<a name="item3"></a>
+			<div class="content"><div class="content">
+<a href="#item1" class="panel">1</a> <a href="#item2" class="panel">2</a> <a href="#item3" class="panel">3</a> </div>
+		</div>
+		</div>
+	</div>
+</div>
+</div><!--konec telesa-->
+<footer class="footer">
+  	<div id="noga-nav">	
+  <span class="nav-noga">|</span>  
+  <a href="./">Klinične poti</a> <span class="nav-noga">|</span>
+  <a href="./">Kazalniki kakovosti</a> <span class="nav-noga">|</span>
+  <a href="./">Javna naročila</a> <span class="nav-noga">|</span>
+  <a href="./">Jama</a> <span class="nav-noga">|</span>
+  <a href="./">Zaposleni</a><span class="nav-noga">|</span>
+  <a href="./">Zaposlitev</a> <span class="nav-noga">|</span>
+  <a href="./">Pravno obvestilo</a> <span class="nav-noga">|</span>
+  <a href="./">Opis strani</a> <span class="nav-noga">|</span>
+  <a href="./">Spletna produkcija</a> <span class="nav-noga">|</span>
+  </div>
+    <div id="noga">	
+  		<p>Bolnišnica Sežana &copy;  2013. Vse pravice pridržane.</p>
+        <img src="images/icon/logo.png" class="logonoga" title="Bolnišnica Sežana" alt="Bolnišnica Sežana">        
+        <h1>Oblikovanje in izvedba:<a href="http://spletko.eu">Spletko&raquo;</a></h1>
+        </div>
+    </footer> 
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40861757-1', 'baytfix.com');
+  ga('send', 'pageview');
+
+</script>  
+
+
+
+
+</div>
+</body>
+</html>

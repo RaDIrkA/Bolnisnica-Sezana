@@ -1,0 +1,65 @@
+#obrazec {position:relative; border:2px solid none; width:700px; height:600px;top:0;right:-1%;}
+/* ----------------------------- FORM Ambulantno naročanje ----------------------------------- */
+.maindiv {width:650px; border:1px solid #none;margin:0 auto;padding:10px;}
+.mainhead {	font-weight:bold;letter-spacing:3px; text-align:center;color:#000;font-size:20px;}
+.mainhead1 {float:right;position:absolute;top:50%; right:-32%;}
+.maindesc {padding:10px 0px;color:#00F;letter-spacing:1px; line-height:140%;font-size:15px;}
+.maindiv input, select, textarea {background-color: #FFFFFF;border-color: #B4B4B4;border-style: solid;border-width: 1px;box-shadow: 0 0 10px #EAEAEA inset;
+color: #333333;	padding: 5px 20px;margin:10px;}
+.maindiv select {width:243px;}
+.maindiv textarea {	width:380px; position:relative; right:0;height:120px;}
+.maindiv input:focus {border-width: 1px;border-color: #0099FF;}
+.maindiv label {display: inline-block;font-family:Arial, Helvetica, sans-serif;color:#000;float: left;font-size: 15px;height: 10px;
+	line-height: 58px;width: 155px;}
+#zascita {color:#000;font-size: 15px;height: 30px;line-height: 70px;width: 155px;}
+.captcha {height:30px;}
+.required {color:#F00;}
+input.btn {background-color: #ffff;	border: 0 none;border-radius: 5px 5px 5px 5px;color: #0000;	cursor: pointer;font: bold 14px Arial, Helvetica, sans-serif;
+	margin-right: 5px;padding: 10px 20px;}
+input.btn:hover { background-color:#000;color:#FFF;}
+.mainhead h1 { position:relative;float:right;right:-10%; letter-spacing:2px;font-size:22px;font-family:Arial, Helvetica, sans-serif;}
+#status {margin: 10px 0;padding: 0;}
+#status h1 {font-size:10px;font-weight:bold; letter-spacing:1px; font-family:Arial, Helvetica, sans-serif;}
+.maindesc h1 {font-size:14px;color:#000;}	
+.maindesc h2 {font-size:15px;}	
+#valid {border: 1px solid #FBC2C4;color: #000;display: block;line-height: 22px;padding: 3px 10px 3px 35px;font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;
+	background:#F00;}
+.successmessage{background:#09C;font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;	padding:10px 0px 10px 5px;color:#000;}
+#valid1 {border: 2px solid #F00; width:300px; position:absolute;right:-270px;top:330px;color: #000; cursor:default;display: block;line-height: 22px;padding: 3px 10px 3px 35px;
+	font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;	background:#CCC;background-image:url(../Ambulantno-narocanje/images/alert.fw.png); background-position:top right; background-repeat:no-repeat;-moz-box-shadow:0px 0px 10px 7px #777777;-webkit-box-shadow:0px 0px 10px 7px #777777;box-shadow:0px 0px 10px 7px #777777;}
+.successmessage1{background:#09C;font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;padding:10px 0px 10px 5px;width:350px;text-align:center;color:#000;}
+.successmessage1 p { position:relative; text-align:center; color:#FFF;}
+	/*Ob kontaktnemu obrazcu desni podatki*/
+#podatki-kontakt {Border-left:1px ridge #000; width:200px; height:550px;float:right;position:absolute;top:8%;right:-40%;}
+#podatki-kontakt h1 { font-weight:bold;color:#F00; font-family:Arial, Helvetica, sans-serif;font-size:15px; letter-spacing:3px; position:relative;top:15px; text-align:center;}
+#podatki-kontakt h2, h3, h4 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt h3 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt h4 {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;top:6px; line-height:150%; font-size:12px;}
+#podatki-kontakt a {font-family:Arial, Helvetica, sans-serif;right:-6%; position:relative;font-size:12px;}
+#podatki-kontakt hr {position:relative;top:10px;right:1%;width:188px;}
+input:required:focus { border:1px solid #F00;}
+ /* Styling "Placeholder" input in Chrome and Safari */
+::-webkit-input-placeholder { color:#333; font-style:italic;}
+ /* Styling "Placeholder" input in Firefox */
+input:-moz-placeholder,textarea:-moz-placeholder {color:#333; font-style:italic;}
+.styled {background-color:#09C;cursor:pointer;top:-1%; position:relative; }
+.select {position: absolute; cursor:pointer; display:block;width: 235px; margin:15px auto; height:27px;padding: 0 0 2px 10px;color: #fff;font: 12px/25px arial,sans-serif;
+  background: url(../Ambulantno-narocanje/select1.fw.png) no-repeat;overflow: hidden;}
+#maindiv h1 {position:relative;top:10px;} 
+#maindiv h2 {position:relative;top:10px;}
+div.hr { height:18px;background-image: url(../layer4-line.fw.png);}
+div.hr hr {display:none;} 
+#cakalna{border-left: outset 1px #999; height:300px; position:absolute; float:right;right:-10%; top:0;}
+#cakalna1{border-top: outset 1px #999; width:200px; position:absolute; float:right;right:-40%; top:50%;}
+#cakalna-doba-narocanje { position:absolute; float:right;right:-40%; top:25%;}
+#cakalna-doba-narocanje1 { position:absolute; float:right;right:-40%; top:5%;}
+#cakalna-doba-narocanje img:hover { background-color:#09F;border:1px solid blue;}
+#cakalna-doba-narocanje1 img:hover { background-color:#09F;border:1px solid blue;}
+	/*Kolendar css*/
+#gumb { width:20px; background-color:#9FF;  background-image:url(../Ambulantno-narocanje/calendar.fw.png); background-repeat:no-repeat; background-position:center; cursor:pointer;}
+#gumb:hover {-moz-box-shadow:0px 0px 10px 3px #777777;-webkit-box-shadow:0px 0px 10px 3px #777777;box-shadow:0px 0px 10px 3px #777777;}	
+
+
+
+
+

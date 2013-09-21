@@ -1,0 +1,61 @@
+.footer {position:relative; margin:0 auto; width:1000px;height:110px;}
+
+		/*KONTAKT FORM ZACETEK*/
+
+.maindiv input, select, textarea {
+	background-color: #FFFFFF;
+	border-color: #B4B4B4;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 0 10px #EAEAEA inset;
+	color: #333333;
+	padding: 10px 20px;
+	margin:10px;
+}
+.maindiv select {
+	width:243px;
+}
+.maindiv textarea {
+	width:209px;
+	height:100px;
+}
+.maindiv input:focus {
+	border-width: 1px;
+	border-color: #0099FF;
+}
+.maindiv label {
+	display: inline-block;
+	color:#666;
+	float: left;
+	font-size: 18px;
+	height: 30px;
+	line-height: 58px;
+	width: 155px;
+}
+
+.captcha {
+	height:30px;
+}
+.required {
+	color:#F00;
+}
+input.btn {
+	background-color: #00AEE3;
+	border: 0 none;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	padding: 10px 20px;
+}
+#status {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.successmessage{
+	background:#090;
+	padding:10px 0px 10px 5px;
+	color:#FFF;}
+	/*KONTAKT FORM KONEC*/
